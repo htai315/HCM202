@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { ChevronDown, Clock, ArrowRight } from 'lucide-react'
-import bgr from '../../assets/images/background.jpg'
+import bgr from '../../assets/images/bgr1.jpg'
 
 function Home() {
   const phases = [
@@ -107,7 +107,7 @@ function Home() {
             </div>
 
             {/* Right: Quote Box */}
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
@@ -119,7 +119,9 @@ function Home() {
                 </p>
                 <p className="text-vietnam-gold font-medium">— Nguyễn Ái Quốc</p>
               </div>
-            </motion.div>
+            </motion.div> */}
+            {/* Right: Placeholder (giữ layout) */}
+
           </div>
         </div>
 

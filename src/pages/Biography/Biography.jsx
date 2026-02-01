@@ -18,7 +18,7 @@ const biographyData = {
     {
       year: '1890',
       title: 'Sinh ra tại Nghệ An',
-      icon: '👶',
+      icon: '🏡',
       color: '#C41E3A',
       shortDesc: 'Sinh ra tại làng Hoàng Trù, xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An. Cha là Nguyễn Sinh Sắc, mẹ là Hoàng Thị Loan.'
     },
@@ -39,21 +39,21 @@ const biographyData = {
     {
       year: '1930',
       title: 'Thành lập Đảng Cộng sản Việt Nam',
-      icon: '🏛️',
+      icon: '⭐',
       color: '#78716C',
       shortDesc: 'Chủ trì Hội nghị hợp nhất các tổ chức cộng sản, thành lập Đảng Cộng sản Việt Nam tại Hương Cảng.'
     },
     {
       year: '1941',
       title: 'Về nước lãnh đạo cách mạng',
-      icon: '🏳️',
+      icon: '🔥',
       color: '#C41E3A',
       shortDesc: 'Trở về Việt Nam, chủ trì Hội nghị Trung ương 8, thành lập Mặt trận Việt Minh tại Pác Bó, Cao Bằng.'
     },
     {
       year: '1945',
       title: 'Tuyên ngôn Độc lập',
-      icon: '⭐',
+      icon: '📜',
       color: '#D4AF37',
       shortDesc: 'Ngày 2/9/1945, đọc bản Tuyên ngôn Độc lập tại Quảng trường Ba Đình, khai sinh nước Việt Nam Dân chủ Cộng hòa.'
     },
@@ -92,7 +92,7 @@ const biographyData = {
   ],
   achievements: [
     {
-      icon: '🏛️',
+      icon: '✊',
       title: 'Lãnh đạo giành độc lập',
       color: '#C41E3A',
       description: 'Chỉ đạo thắng lợi Cách mạng tháng Tám 1945, kết thúc ách thống trị của thực dân và phong kiến'
@@ -122,7 +122,7 @@ const biographyData = {
       description: 'Luôn quan tâm đến đồng bào, chiến sĩ và trẻ em'
     },
     {
-      icon: '🎯',
+      icon: '⭐',
       title: 'Người sáng lập Đảng',
       color: '#C41E3A',
       description: 'Thành lập và rèn luyện Đảng Cộng sản Việt Nam'
