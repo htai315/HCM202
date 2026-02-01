@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Calendar, MapPin, BookOpen, Star, Heart, Award, ChevronDown, Clock } from 'lucide-react'
+import ab from '../../assets/images/ab.jpg'
 
 const biographyData = {
   overview: {
@@ -241,10 +242,11 @@ function Biography() {
               <div className="relative inline-block">
                 <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-vietnam-gold/40 shadow-2xl mx-auto">
                   <img 
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ho_Chi_Minh_1946.jpg/800px-Ho_Chi_Minh_1946.jpg" 
+                    src={ab}
                     alt="Chủ tịch Hồ Chí Minh"
                     className="w-full h-full object-cover"
                   />
+
                 </div>
                 <div className="absolute -bottom-3 -right-3 w-16 h-16 bg-vietnam-red rounded-full flex items-center justify-center shadow-xl">
                   <Star className="text-vietnam-gold" size={28} />

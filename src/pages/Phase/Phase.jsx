@@ -1,6 +1,23 @@
 import { useParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { ArrowLeft, ArrowRight, Calendar, MapPin, Star } from 'lucide-react'
+import benCangNhaRong from '../../assets/images/Ben-Cang-Nha-Rong.jpg'
+import thanhlapVM from '../../assets/images/mat-tran-VM.jpg'
+import nhatKy from '../../assets/images/nktt.jpg'
+import tanTrao from '../../assets/images/chinh-phu-tan-trao.jpg'
+import cmt8 from '../../assets/images/cmt8.jpg'
+import tuyenNgon from '../../assets/images/ban-tuyen-ngon.jpg'
+import ctdbp from '../../assets/images/Victory_in_Battle_of_Dien_Bien_Phu.jpg'
+import cdmx from '../../assets/images/99.jpg'
+import hq720 from '../../assets/images/4.1.jpg'
+import kccm from '../../assets/images/kccm.jpg'
+import scmt8 from '../../assets/images/scmt8.jpg'
+import lsu from '../../assets/images/lsu1.jpg'
+import tvs from '../../assets/images/Tong_Van_So.jpg'
+import tg from '../../assets/images/tg.jpg'
+import btv from '../../assets/images/btv.jpg'
+import cb from '../../assets/images/1152cb.jpg'
+import mosco from '../../assets/images/mosco.jpg'
 
 // Dữ liệu 5 giai đoạn
 const phasesData = {
@@ -16,7 +33,7 @@ const phasesData = {
         {
           title: 'Xuất phát từ khát vọng độc lập',
           content: `Xuất phát từ ý chí và khát vọng cháy bỏng giành độc lập cho dân tộc trước cảnh nước mất nhà tan, ngày 5/6/1911, với tên gọi Văn Ba, Người đã rời bến cảng Nhà Rồng trên tàu Amiran Latusơ Tơrêvin để đi sang Pháp.`,
-          image: 'https://images.unsplash.com/photo-1559163499-41381127c378?w=800&q=80'
+          image: benCangNhaRong
         },
         {
           title: 'Bôn ba khắp nơi trên thế giới',
@@ -111,17 +128,17 @@ const phasesData = {
         {
           title: 'Bị giam cầm tại Hồng Kông (1931 - 1933)',
           content: `Vào tháng 6/1931, dưới bí danh Tống Văn Sơ, Nguyễn Ái Quốc bị chính quyền thực dân Anh bắt giam tại Hồng Kông. Những ngày tháng bị giam cầm từ tháng 6/1931 đến tháng 1/1933 là quãng thời gian ngột ngạt trong lao tù đế quốc.`,
-          image: 'https://images.unsplash.com/photo-1598053432880-7167a7d2320a?w=800&q=80'
+          image: tvs
         },
         {
           title: 'Sự giải cứu của tình người',
           content: `Chính trong bóng tối của ngục tù, ánh sáng của chủ nghĩa nhân đạo tỏa ra từ cốt cách của Người đã lay động những trái tim chính nghĩa. Luật sư Lô-dơ-bi (Loseby) đã hết lòng bào chữa và cứu giúp Người thoát khỏi án tử.`,
-          image: 'https://images.unsplash.com/photo-1577083288073-40892c0860a4?w=800&q=80'
+          image: lsu
         },
         {
           title: 'Trở lại Liên Xô rèn luyện (1933 - 1938)',
           content: `Rời Hồng Kông, Người trở lại Liên Xô, tiếp tục hành trình chuẩn bị lý luận cho cuộc cách mạng tương lai. Với số thẻ học viên 375 tại trường Quốc tế Lênin và sau đó là giảng viên tại trường Đại học Phương Đông vào năm 1937, Người âm thầm rèn luyện ý chí.`,
-          image: 'https://images.unsplash.com/photo-1535905557558-afc4877a26fc?w=800&q=80'
+          image: mosco  
         },
         {
           title: 'Vượt qua những quan điểm sai lệch',
@@ -131,7 +148,7 @@ const phasesData = {
         {
           title: 'Thư gửi Quốc tế Cộng sản (1938)',
           content: `Đến tháng 6/1938, Người đã viết thư gửi một đồng chí ở Quốc tế Cộng sản, tha thiết yêu cầu được giao việc để được tiếp tục cống hiến cho sự nghiệp giải phóng.`,
-          image: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&q=80'
+          image: tg
         },
         {
           title: 'Trở về Trung Quốc (1938)',
@@ -141,12 +158,12 @@ const phasesData = {
         {
           title: 'Khoảnh khắc lịch sử: Về quê hương (1941)',
           content: `Ngày 28/1/1941, sau đúng 30 năm đằng đẵng bôn ba qua 3 đại dương và 4 châu lục, Người đã đặt nụ hôn lên mảnh đất quê hương tại Pác Bó, Cao Bang. Nhà thơ Tố Hữu đã ghi lại: "Ôi sáng xuân nay, xuân bốn mốt / Một trời biên giới nắng hoa mơ / Bác về! im lặng con chim hót / Thánh thót bờ lau. Vui ngẩn ngơ".`,
-          image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80'
+          image: btv
         },
         {
           title: 'Viết "Lịch sử nước ta" tại Cao Bằng',
           content: `Tại Cao Bằng, nơi Người chọn làm thí điểm xây dựng Mặt trận Việt Minh, Bác đã viết tác phẩm "Lịch sử nước ta" để khơi dậy niềm tự hào và niềm tin mãnh liệt vào sức mạnh dân tộc: "Dân ta phải biết sử ta / Cho tường gốc tích nước nhà Việt Nam".`,
-          image: 'https://images.unsplash.com/photo-1598053432880-7167a7d2320a?w=800&q=80'
+          image: cb
         }
       ],
       quotes: [
@@ -173,27 +190,27 @@ const phasesData = {
         {
           title: 'Trở về và thành lập Việt Minh',
           content: `Tháng 5/1941, sau hơn 30 năm bôn ba, Người trở về Việt Nam và ngay lập tức chủ trì Hội nghị Trung ương 8 tại Khuổi Nậm (Pác Bó). Tại đây, Người đã thành lập Mặt trận Việt Minh nhằm đoàn kết toàn dân trong bối cảnh đất nước đang rên xiết dưới ách "một cổ hai tròng" của thực dân phong kiến.`,
-          image: 'https://images.unsplash.com/photo-1598053432880-7167a7d2320a?w=800&q=80'
+          image: thanhlapVM
         },
         {
           title: 'Những tháng năm gian khổ trong tù',
           content: `Tháng 8/1942, Người chính thức lấy tên Hồ Chí Minh và sang Trung Quốc để tìm kiếm sự liên minh quốc tế chống phát xít. Tuy nhiên, Người bị chính quyền Tưởng Giới Thạch bắt giam suốt 13 tháng. Trong những ngày tháng gian khổ ấy, Người đã sáng tác tập thơ "Nhật ký trong tù" – một tác phẩm bất hủ thể hiện tinh thần lạc quan và ý chí kiên cường.`,
-          image: 'https://images.unsplash.com/photo-1535905557558-afc4877a26fc?w=800&q=80'
+          image: nhatKy
         },
         {
           title: 'Trở về căn cứ và chuẩn bị tổng khởi nghĩa',
           content: `Sau khi được trả tự do vào tháng 9/1943, Người trở về căn cứ Cao Bằng. Tháng 5/1945, Người quyết định dời về Tân Trào (Tuyên Quang) để chuẩn bị thành lập Chính phủ lâm thời. Đây là bước chuẩn bị quan trọng cho những sự kiện vĩ đại sắp diễn ra.`,
-          image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80'
+          image: tanTrao
         },
         {
           title: 'Cách mạng tháng Tám - Đỉnh cao chiến thắng',
           content: `Tháng 8/1945, Việt Minh kêu gọi nhân dân phá kho thóc giải quyết nạn đói và đồng lòng đứng lên khởi nghĩa chống Đế quốc Nhật Bản. Thắng lợi của Cách mạng tháng Tám đã buộc Bảo Đại phải thoái vị, chấm dứt hoàn toàn chế độ phong kiến tại Việt Nam.`,
-          image: 'https://images.unsplash.com/photo-1529253355930-ddbe923b0632?w=800&q=80'
+          image: cmt8
         },
         {
           title: 'Khai sinh nước Việt Nam Dân chủ Cộng hòa',
           content: `Ngày 02/09/1945, tại Quảng trường Ba Đình, Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập, chính thức khai sinh ra nước Việt Nam Dân chủ Cộng hòa. Đây là đỉnh cao huy hoàng của hành trình 34 năm tìm đường cứu nước, mở ra kỷ nguyên mới cho dân tộc Việt Nam.`,
-          image: 'https://images.unsplash.com/photo-1577083288073-40892c0860a4?w=800&q=80'
+          image: tuyenNgon
         }
       ],
       quotes: [
@@ -220,27 +237,27 @@ const phasesData = {
         {
           title: 'Thử thách mới sau ngày độc lập',
           content: `Ngay sau khi nước Việt Nam Dân chủ Cộng hòa được khai sinh vào ngày 02/09/1945, dân tộc ta phải đối mặt với dã tâm của đế quốc Mỹ khi chúng dựng lên chính quyền tay sai hòng chia cắt lâu dài đất nước. Thực dân Pháp quay lại xâm lược, kèm theo sự can thiệp của các thế lực đế quốc khác, đặt nền độc lập non trẻ vào thử thách khốc liệt.`,
-          image: 'https://images.unsplash.com/photo-1598053432880-7167a7d2320a?w=800&q=80'
+          image: scmt8
         },
         {
           title: 'Chiến thắng Điện Biên Phủ lừng lẻy',
           content: `Dưới sự lãnh đạo đúng đắn của Đảng và ngọn cờ kháng chiến kiến quốc, quân và dân ta đã kiên cường chống lại cuộc xâm lược của thực dân Pháp. Chiến thắng lịch sử Điện Biên Phủ vào năm 1954 đã "lừng lẫy năm châu, chấn động địa cầu", buộc Pháp phải ký Hiệp định Genève, chấm dứt ách thống trị của thực dân tại Việt Nam.`,
-          image: 'https://images.unsplash.com/photo-1559163499-41381127c378?w=800&q=80'
+          image: ctdbp
         },
         {
           title: 'Kháng chiến chống Mỹ - Chân lý bất diệt',
           content: `Tiếp nối tinh thần chiến thắng, cuộc kháng chiến chống Mỹ cứu nước được thực hiện dựa trên chân lý bất diệt mà Người đã khẳng định: "Nước Việt Nam là một, dân tộc Việt Nam là một. Sông có thể cạn, núi có thể mòn, song chân lý đó không bao giờ thay đổi". Đây là cuộc kháng chiến lâu dài, gian khổ nhưng vô cùng anh hùng của dân tộc Việt Nam.`,
-          image: 'https://images.unsplash.com/photo-1467269204594-9661b133dd2b?w=800&q=80'
+          image: kccm
         },
         {
           title: 'Mùa Xuân Đại thắng - 1975',
           content: `Hành trình kháng chiến đã khép lại bằng thắng lợi vĩ đại của cuộc Tổng tiến công và nổi dậy mùa Xuân năm 1975. Chiến dịch Hồ Chí Minh mang tên Người đã giải phóng hoàn toàn miền Nam, thu non sông về một mối, kết thúc hoàn toàn cuộc kháng chiến chống xâm lược và mở ra kỷ nguyên độc lập, tự do cho cả nước.`,
-          image: 'https://images.unsplash.com/photo-1529253355930-ddbe923b0632?w=800&q=80'
+          image: cdmx
         },
         {
           title: 'Di sản và ý nghĩa lịch sử',
           content: `Chiến thắng 30/4/1975 đánh dấu sự toàn thắng của tinh thần đoàn kết, ý chí tự cường và trí tuệ của dân tộc Việt Nam. Hành trình từ 1911 đến 1975 – 64 năm tìm đường và chiến đấu – đã khép lại bằng việc nước Việt Nam thống nhất, độc lập, tự do. Đây là thắng lợi của chủ nghĩa anh hùng cách mạng và tinh thần quốc sâu núi cao của dân tộc Việt Nam.`,
-          image: 'https://images.unsplash.com/photo-1577083288073-40892c0860a4?w=800&q=80'
+          image: hq720
         }
       ],
       quotes: [
