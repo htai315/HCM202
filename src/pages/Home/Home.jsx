@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { ChevronDown, Clock, ArrowRight } from 'lucide-react'
+import bgr from '../../assets/images/background.jpg'
 
 function Home() {
   const phases = [
@@ -49,7 +50,7 @@ function Home() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80)'
+            backgroundImage: `url(${bgr})`
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-dark-navy/60 via-dark-navy/40 to-dark-navy"></div>

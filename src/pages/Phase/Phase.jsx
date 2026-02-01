@@ -18,6 +18,27 @@ import tg from '../../assets/images/tg.jpg'
 import btv from '../../assets/images/btv.jpg'
 import cb from '../../assets/images/1152cb.jpg'
 import mosco from '../../assets/images/mosco.jpg'
+import phase1anh2 from '../../assets/images/phase1_anh2.jpg'
+import phase1anh3 from '../../assets/images/phase1_anh3.jpg'
+import phase1anh4 from '../../assets/images/phase1_anh4.jpg'
+import phase2anh1 from '../../assets/images/phase2_anh1.jpg'
+import phase2anh2 from '../../assets/images/phase2_anh2.jpg'
+import phase2anh3 from '../../assets/images/phase2_anh3.jpg'
+import phase2anh4 from '../../assets/images/phase2_anh4.jpg'
+import phase2anh5 from '../../assets/images/phase2_anh5.jpg'
+import phase2anh6 from '../../assets/images/phase2_anh6.jpg'
+import phase2anh7 from '../../assets/images/phase2_anh7.jpg'
+import phase3anh1 from '../../assets/images/phase3_anh1.jpg'
+import phase3anh2 from '../../assets/images/phase3_anh2.jpg'
+
+
+
+
+
+
+
+
+
 
 // Dữ liệu 5 giai đoạn
 const phasesData = {
@@ -38,17 +59,17 @@ const phasesData = {
         {
           title: 'Bôn ba khắp nơi trên thế giới',
           content: `Từ năm 1912 đến 1917, Người bôn ba qua nhiều quốc gia ở châu Phi, châu Mỹ, và đến nước Anh vào giữa năm 1913 để vừa lao động, vừa quan sát và nghiên cứu thực tiễn các cuộc cách mạng trên thế giới. Qua quá trình này, Người nhận rõ cội nguồn nỗi đau của nhân dân lao động chính là sự áp bức, bóc lột của chủ nghĩa tư bản đế quốc.`,
-          image: 'https://images.unsplash.com/photo-1467269204594-9661b133dd2b?w=800&q=80'
+          image: phase1anh2
         },
         {
           title: 'Tham gia chính trị tại Pháp',
           content: `Cuối năm 1917, Người trở lại Pháp và bắt đầu tham gia sâu rộng vào các phong trào chính trị. Đầu năm 1919, Người gia nhập Đảng Xã hội Pháp và đến tháng 6/1919, thay mặt Hội những người yêu nước Việt Nam tại Pháp, Người lấy tên là Nguyễn Ái Quốc gửi Bản yêu sách gồm 08 điểm tới Hội nghị Véc-xây để đòi quyền tự do, dân chủ và bình đẳng cho dân tộc Việt Nam.`,
-          image: 'https://images.unsplash.com/photo-1577083288073-40892c0860a4?w=800&q=80'
+          image: phase1anh3
         },
         {
           title: 'Bước ngoặt lịch sử - Tìm thấy con đường',
           content: `Bước ngoặt quyết định trong hành trình này diễn ra vào tháng 7/1920, khi Người đọc được Luận cương của Lênin về vấn đề dân tộc và thuộc địa, từ đó tìm thấy con đường giải phóng dân tộc đúng đắn: độc lập dân tộc gắn liền với chủ nghĩa xã hội. Sự kiện này dẫn đến việc Người bỏ phiếu tán thành Quốc tế III và tham gia thành lập Đảng Cộng sản Pháp vào tháng 12/1920, trở thành người Cộng sản đầu tiên của Việt Nam, chính thức mở ra một thời đại mới cho con đường cứu nước của dân tộc.`,
-          image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=800&q=80'
+          image: phase1anh4
         }
       ],
       quotes: [
@@ -71,37 +92,37 @@ const phasesData = {
         {
           title: 'Truyền bá chủ nghĩa Mác – Lênin',
           content: `Về tư tưởng, Nguyễn Ái Quốc tích cực truyền bá chủ nghĩa Mác – Lênin vào phong trào cách mạng các nước thuộc địa, đặc biệt là Việt Nam. Năm 1921, Người cùng các nhà cách mạng ở Paris thành lập Hội Liên hiệp Thuộc địa, nhằm đoàn kết các dân tộc bị áp bức trong cuộc đấu tranh chống chủ nghĩa thực dân.`,
-          image: 'https://images.unsplash.com/photo-1577083288073-40892c0860a4?w=800&q=80'
+          image: phase2anh1
         },
         {
           title: 'Báo Le Paria và tiếng nói của người cùng khổ',
           content: `Năm 1922, Người sáng lập và trực tiếp tham gia viết bài cho báo Le Paria (Người cùng khổ) – một diễn đàn báo chí có tiếng vang lớn, tố cáo bản chất tàn bạo của chủ nghĩa thực dân và thức tỉnh ý thức cách mạng của nhân dân các nước thuộc địa.`,
-          image: 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=800&q=80'
+          image: phase2anh2
         },
         {
           title: 'Bản án chế độ thực dân Pháp',
           content: `Đặc biệt, tác phẩm Bản án chế độ thực dân Pháp (1925) là một văn kiện chính trị – lý luận sắc bén, góp phần quan trọng vào việc hình thành tư tưởng giải phóng dân tộc theo con đường cách mạng vô sản.`,
-          image: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&q=80'
+          image: phase2anh3
         },
         {
           title: 'Nghiên cứu lý luận tại Liên Xô',
           content: `Trong những năm 1923–1924, khi hoạt động tại Liên Xô, Người có điều kiện nghiên cứu sâu hơn về lý luận cách mạng và kinh nghiệm xây dựng Đảng kiểu mới, từ đó vận dụng sáng tạo vào điều kiện cụ thể của Việt Nam.`,
-          image: 'https://images.unsplash.com/photo-1515905557558-afc4877a26fc?w=800&q=80'
+          image: phase2anh4
         },
         {
           title: 'Thành lập Hội Việt Nam Cách mạng Thanh niên',
           content: `Cuối năm 1924, Nguyễn Ái Quốc đến Quảng Châu (Trung Quốc), trực tiếp tổ chức huấn luyện cán bộ cách mạng Việt Nam. Năm 1925, Người sáng lập Hội Việt Nam Cách mạng Thanh niên, một tổ chức tiền thân có vai trò đặc biệt quan trọng.`,
-          image: 'https://images.unsplash.com/photo-1598053432880-7167a7d2320a?w=800&q=80'
+          image: phase2anh5 
         },
         {
           title: 'Tác phẩm Đường Kách mệnh',
           content: `Thông qua các lớp huấn luyện và tác phẩm Đường Kách mệnh, Người từng bước thống nhất nhận thức, tư tưởng và hành động trong phong trào cách mạng Việt Nam, chuẩn bị đội ngũ cán bộ cho sự ra đời của Đảng.`,
-          image: 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=800&q=80'
+          image: phase2anh6
         },
         {
           title: 'Ngày thành lập Đảng Cộng sản Việt Nam',
           content: `Kết quả của quá trình chuẩn bị công phu là sự ra đời của Đảng Cộng sản Việt Nam ngày 3/2/1930 tại Hương Cảng (Trung Quốc), đánh dấu bước ngoặt vĩ đại của cách mạng Việt Nam, chấm dứt tình trạng khủng hoảng về đường lối và giai cấp lãnh đạo.`,
-          image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=800&q=80'
+          image: phase2anh7
         }
       ],
       quotes: [
@@ -143,7 +164,7 @@ const phasesData = {
         {
           title: 'Vượt qua những quan điểm sai lệch',
           content: `Đây là giai đoạn Người phải thể hiện bản lĩnh chính trị phi thường để vượt qua những quan điểm "tả khuynh" sai lệch của Quốc tế Cộng sản lúc bấy giờ. Có những lúc không được giao nhiệm vụ thực tiễn, Người vẫn không nản chí.`,
-          image: 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=800&q=80'
+          image: phase3anh1
         },
         {
           title: 'Thư gửi Quốc tế Cộng sản (1938)',
@@ -153,7 +174,7 @@ const phasesData = {
         {
           title: 'Trở về Trung Quốc (1938)',
           content: `Cuối năm 1938, với bí danh Hồ Quang, Người rời Liên Xô về Trung Quốc, từng bước tiếp cận biên giới để tìm đường về với đồng bào.`,
-          image: 'https://images.unsplash.com/photo-1467269204594-9661b133dd2b?w=800&q=80'
+          image: phase3anh2
         },
         {
           title: 'Khoảnh khắc lịch sử: Về quê hương (1941)',
