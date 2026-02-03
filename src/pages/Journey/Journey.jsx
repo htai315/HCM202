@@ -3,6 +3,8 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { ArrowRight, Clock, Star, ChevronDown } from 'lucide-react'
 
+import heroBg from '../../assets/images/anhlacovietnam.jpg'
+
 const phases = [
   {
     id: 1,
@@ -75,7 +77,7 @@ function TimelineItem({ phase, index }) {
     >
       {/* Year Badge lớn */}
       <div className="absolute left-1/2 transform -translate-x-1/2 z-10">
-        <div 
+        <div
           className="w-20 h-20 rounded-full flex items-center justify-center text-white font-serif font-bold text-lg shadow-xl border-3 border-white/20"
           style={{ background: `linear-gradient(135deg, ${phase.color}, ${phase.color}80)` }}
         >
@@ -91,7 +93,7 @@ function TimelineItem({ phase, index }) {
         >
           {/* Icon & Title */}
           <div className="flex items-center gap-5 mb-4">
-            <div 
+            <div
               className="w-16 h-16 rounded-xl flex items-center justify-center text-3xl shadow-lg"
               style={{ backgroundColor: `${phase.color}30` }}
             >
@@ -127,8 +129,13 @@ function Journey() {
       {/* Hero Section lớn */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-dark-navy via-red-950/30 to-dark-navy" />
-        
+        {/* Background Image & Gradient */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-dark-navy/90 via-red-950/70 to-dark-navy/90" />
+
         {/* Content */}
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
           <motion.div
@@ -140,7 +147,7 @@ function Journey() {
               <Clock size={16} />
               Hành Trình Lịch Sử
             </span>
-            
+
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
               HÀNH TRÌNH
               <br />
@@ -148,7 +155,7 @@ function Journey() {
               <br />
               TÌM ĐƯỜNG CỨU NƯỚC
             </h1>
-            
+
             <p className="text-white/60 text-xl md:text-2xl max-w-3xl mx-auto mt-8 leading-relaxed font-sans">
               Từ bến cảng Nhà Rồng năm 1911 đến ngày độc lập năm 1945,
               <br className="hidden md:block" />
